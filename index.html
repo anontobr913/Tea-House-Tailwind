@@ -18,15 +18,18 @@
             extend: {
               colors: {
                 clifford: '#da373d',
+              },
+              fontfamily:
+              { manrope: ['Manrope', 'sans-serif'],
               }
             }
           }
         }
       </script>
 </head>
-<body>
+<body class="font-manrope">
     <!-- main content -->
-     <main class="max-w-screen-xl mx-auto px-16 lg:px-20 border  border-red-600">
+     <main class="max-w-screen-xl mx-auto px-16 lg:px-20 border">
         <!-- header section -->
          <header class=" lg:flex  pt-10 mb-20">
             <!-- text content -->
@@ -180,5 +183,71 @@
                 </div>
             </section>
      </main>
+
+     <!-- footer section -->
+      <footer class="bg-orange-50  text-gray-700 py-10 px-4 md:px-16 ">
+        <div class="w-10/12 mx-auto">
+            <div class="mb-8 flex justify-between">
+                <img src="./images/cup.png" alt="">
+                <!-- logo -->
+                <div class="flex  items-center flex-col md:flex-row space-x-5">
+                    <p class="mb-3">Ready to get strated?</p>
+                    <button class="bg-gradient-to-r from-orange-500 to bg-red-600 px-5 py-3 rounded-lg  text-white">Get Started</button>
+                </div>
+            </div>
+        </div>
+
+          <!-- Links -->
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 w-10/12 mx-auto">
+            <!-- first column -->
+             <div>
+                <h3 class="font-semibold text-lg mb-3">Quick Links</h3>
+                <ol class="space-y-2 text-gray-600">
+                    <li><a href="" class="hover:text-orange-500">Home</a></li>
+                    <li><a href="" class="hover:text-orange-500">About Us</a></li>
+                    <li><a href="" class="hover:text-orange-500">Insurance</a></li>
+                    <li><a href="" class="hover:text-orange-500">Privacy Policy</a></li>
+                </ol>
+             </div>
+
+            <!-- Second Column column -->
+             <div>
+                <h3 class="font-semibold text-lg mb-3">Quick Links</h3>
+                <ol class="space-y-2 text-gray-600">
+                    <li><a href="" class="hover:text-orange-500">Our Service</a></li>
+                    <li><a href="" class="hover:text-orange-500">Life Insurance</a></li>
+                    <li><a href="" class="hover:text-orange-500">Car Insurance</a></li>
+                    <li><a href="" class="hover:text-orange-500">House Insurance</a></li>
+                </ol>
+             </div>
+
+            <!-- Third column -->
+             <div>
+                <h3 class="font-semibold text-lg mb-3">Quick Links</h3>
+                <ol class="space-y-2 text-gray-600">
+                    <li><a href="" class="hover:text-orange-500">Help</a></li>
+                    <li><a href="" class="hover:text-orange-500">FAQs</a></li>
+                    <li><a href="" class="hover:text-orange-500">Contract Us</a></li>
+                </ol>
+             </div>
+
+             <!-- fourth column -->
+              <div>
+                <h3 class="mb-8">Subscribe to our <br> newsletter</h3>
+                <div class="flex items-center">
+                    <input class="bg-transparent border-b-2 border-black w-4/6 " placeholder="Email Address" type="text">
+                    <i class="fa-solid fa-chevron-right h-5 w-5 bg-orange-500 rounded-full flex justify-center items-center"></i>
+                </div>
+                <div class="flex space-x-5 justify-center w-2/5 mt-8">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+              </div>
+         </div>
+
+
+         <div class="mt-12 md:mt-20 text-center text-sm text-gray-600">© 2027 UIDesign.to - All rights reserved.</div>
+      </footer>
 </body>
 </html>
